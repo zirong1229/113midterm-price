@@ -187,11 +187,11 @@ nav ul li ul li:hover {
     overflow: hidden;
     border: 3px solid #FFFFFF;
     border-radius: 0px;
-    transition: transform 0.3s ease;
+    transition: transform 0.5s ease;
 }
 
 .image-container:hover {
-    transform: scale(1.05);
+    transform: scale(1.02);
 }
 
 .image-container img {

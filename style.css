@@ -35,10 +35,12 @@ body::before {
 
 .nav-title a {
     color: inherit;          /* 使用父元素的顏色 */
-    text-decoration: none;/* 移除底線 */
-	font-family:serif ;
-
+    text-decoration: none;   /* 移除底線 */
+    font-family: serif;
+    position: relative;      /* 啟用相對定位 */
+    top: -20px;              /* 向上移動 10px */
 }
+
 /* 大於 800px 的媒體查詢 */
 @media screen and (min-width: 800px) {
     label {

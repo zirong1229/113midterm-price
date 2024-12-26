@@ -12,7 +12,7 @@ body {
     max-width: 100%;
     margin: 0 auto;
     flex: 1; /* 填滿剩餘空間 */
-    background-image: url('./bc.jpg');
+    background-image: url('./bc.png');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
